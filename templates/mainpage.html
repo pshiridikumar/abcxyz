@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f3e645797f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+<link href="{{url_for('static',filename='main.css')}}" rel="stylesheet">
+
+    <title>
+        My Portfolio
+    </title>
+
+</head>
+
+<body>
+
+
+    <section class="menu h-class">
+        <nav class="navbar">
+            <ul class="liel v-class">
+                <li class="listel"><a href="#home">Home</a></li>
+                <li class="listel"><a href="#about">About me</a></li>
+                <li class="listel"><a href="#sk">My Skills</a></li>
+                <li class="listel"><a href="#interests">My Interests</a></li>
+                <li class="listel"><a href="#">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars icon" style="padding:10px;opacity:1;color:black"></i>
+
+        </nav>
+    </section>
+    <section class="next" id="home">
+        <div class="para">
+            <h1 class="big">Hi! , Welcome to my Portfolio</h1>
+            <h2 class="small">Hi i'm Shiridi . Presently getting cooked in kalasalingam univeristy , will be served in
+                2023
+                . Love problem soving and coding . Interests in the field AI and ML . Always open to new ideas . check
+                out
+                below for more about me... </h2>
+            <div class="hashtags">
+            <h1>#Hashtags</h1>
+            <ul>
+                <li>#Hardworker</li>
+                <li>#Passionate</li>
+                <li>#TeamPlayer</li>
+                <li>#FastLearner</li>
+                <li>#ProblemSolver</li>
+            </ul>
+            </div>
+        </div>
+        <div class="image-class">
+            <img src="{{url_for('static',filename='profil.jpg')}}" id="img">
+            <a onclick="clicked()">Want to check out me??<br> Click here</a>
+
+        </div>
+
+    </section>
+    <section id="about">
+    <h1>About me</h1>
+    <div class="aboutpara">
+        <img src="{{url_for('static',filename='Check out Man working with laptop by robuart on Creative Market.jpg')}}">
+        <p> Hi many name is shiridi. I'm a computer science engineering student and i'm currently pursuing my Graduation in Kalasalingam academy of research and education.
+             . I love problem solving and i regularly participate code chef long challenges and also solve problems in hackerrank. My technical interests include Machine learning and deep learning and i also want to learn Full stack.
+             I did my schooling in Cal public school and intermediate education in sri chaitanya educational instituion. </p>
+
+
+    </div>
+    </section>
+    <section id="sk">
+        <h1>Skills and Projects</h1>
+
+        <div class="skills">
+
+            <div class="heading">
+                <div class="progress">
+                    <img src="{{url_for('static',filename='PinClipart.com_development-clipart_5318811.png')}}">
+                    <p>I have started learning Python programming from my 1st year and also got gold +elite certificate in NPTEL joy of computong using python course
+                        .
+                   . I have done online courses on deep learning and machine learning concepts and also had practical experince using Tensorflow library in python and later i 
+                along with my team published a research paper in IEEE xplore. I'm currently learning web devolopment .I knows of html ,css and javascript and coming to backend programming i know basics of python flask framework. </p>
+                
+                    <ul class="skillsbar">
+                        <h2>Python programming</h2>
+                        <li class="odd"><div id="python">80%</div> 
+                        </li>
+                        <h2>C programming</h2>
+                        <li class="even" ><div id="c">65%</div></li>
+                        <h2>Java</h2>
+                        <li class="odd" ><div id="java">60%</div></li>
+                        <h2>Machine learning</h2>
+                        <li class="even" ><div id="ml">60%</div></li>
+                        <h2>Web Devolopment</h2>
+                        <li class="odd"  ><div id="web">55%</div></li>
+                        <h2>Deep learning</h2>
+                        <li class="even"  ><div id="dl">50%</div></li>
+                        <h2>Competitive coding</h2>
+                        <li class="odd" ><div id="cp">70%</div></li> 
+                    </ul>
+
+                </div>
+            </div>
+           <!-- <div class="details">
+                <h1 style="text-align: center;font-size: 30px;padding:5px;color:black">Bio and Education</h1>
+                <ul class="details-list">
+                    <hr>
+                    <li><i class="fas fa-user"></i> Name : P Shiridi Kumar </li>
+                    <hr>
+                    <li><i class="fas fa-user"></i> Date Of Birth : 8th April 2002 </li>
+                    <hr>
+                    <li><i class="fas fa-school"></i> Primary school : Cal Public School,Hyderabad </li>
+                    <hr>
+                    <li><i class="fas fa-chalkboard-teacher"></i> Senior Secondary School : Sri Chaitanya Educational
+                        institute,Vizag </li>
+                    <hr>
+                    <li><i class="fas fa-graduation-cap"></i> Graduation : Currently Pursuing B.TECH in Kalasalingam
+                        Academy of Research and Education </li>
+                    <hr>
+                    <li><i class="fas fa-envelope"></i> Email : shiridikumarpeddinti836@gmail.com </li>
+                    <hr>
+                    <li><i class="fas fa-phone-square"></i> Mobile : 8008048963 </li>
+
+                </ul>
+
+
+            </div>
+        </div>-->
+
+    </section>
+
+    <section id="interests">
+        <h1>My Interests and Future plans</h1>
+        <div class="cards">
+            <div class="card"><img src="{{url_for('static',filename='aiml.png')}}"><p>I'm Currently very much interested in this field and already had been diving into it looking for more in it.</p></div>
+            <div class="card"><img src="{{url_for('static',filename='webdev.jpeg')}}"><p>I started my web devolopment journey from my 4th semester and curently i'm still learning it and i have also made this Portfolio as a part of it from scratch</p></div>
+            <div class="card"><img src="{{url_for('static',filename='cv.png')}}"><p>Though i currently don't have good knowledge on computer vision but i'm always interested in this field and will definitely dive into this in future </p></div>
+            <div class="card"><img src="{{url_for('static',filename='cloud.jpg')}}"><p>When it comes to cloud computing concepts i really didn't had much exposure to it but i'm really interested in learning them and will definitely look into it soon </p></div>
+        </div>
+
+
+        
+    </section>
+    <script src="{{url_for('static',filename='view.js')}}"></script>
+</body>
+
+</html>

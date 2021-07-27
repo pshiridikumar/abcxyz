@@ -1,0 +1,746 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: auto 10px;
+
+
+}
+
+body {
+    color: white;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Amarante', cursive;
+}
+
+li a:hover {
+    color: rgb(44, 164, 219);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 95%;
+    height: 40px;
+    display: flex;
+
+
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    background:white no-repeat center center/cover;
+    background-blend-mode: darken;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+
+
+}
+
+.foot {
+    margin: 10px 10px;
+}
+
+.foot a {
+    text-decoration: rgb(104, 13, 13);
+    color: grey;
+    font-size: 20px;
+    ;
+}
+
+div h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+div h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon {
+    display: none;
+    position: absolute;
+    text-align: right;
+}
+
+.next {
+    background:url("bernard-hermant-X-Bu9X6gok0-unsplash.jpg") no-repeat center center/cover;
+    height: 680px;
+    width: 100%;
+
+
+}
+a{
+    color:black;
+}
+h1{
+    color:white;
+    font-weight: bold;
+}
+
+.big {
+    font-size: 30px;
+    padding: 50px 30px;
+    color:black;
+    padding-top: 100px;
+    font-family: 'Amarante', cursive;
+
+}
+
+.small {
+    color:black;
+    font-weight:900;
+    font-size: 20px;
+    font-family: 'Amarante', cursive;
+}
+
+#img {
+    padding-top: 30px;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px 20px;
+    box-shadow: white;
+ 
+  
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    filter: blur(20px);
+    -webkit-filter: blur(10px);
+    z-index: 1;
+
+
+}
+
+
+.skills {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+  
+}
+
+.progress img {
+    height: 300px;
+
+}
+
+.heading {
+ 
+    padding: 10px 5px;
+    width: 100%;
+    justify-content: center;
+    height: 440px;
+}
+
+.heading p{
+    text-align: center;
+    width:100%;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Amarante', cursive;
+    margin:30px;
+    color:black;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+}
+
+.next {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.para {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image-class {
+    display: flex;
+    color:black;
+    flex-direction: column;
+    font-weight: 200;
+}
+
+.image-class a {
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: black;
+    color:black;
+    font-family: 'Amarante', cursive;
+}
+
+.image-class a:hover {
+    color:white;
+
+}
+
+.skillsbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.barit {
+    padding: 2px;
+    margin: 10px;
+}
+
+.skillsbar li {
+    height: 10px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width:400px;
+    padding:0px 0px;
+
+}
+
+
+
+.skillsbar li div{
+    background-color: black;
+    padding:0px;
+    border-radius: 10px;
+}
+.skillsbar h2{
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+
+}
+
+#python {
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+#c {
+    animation-name: animate1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate1 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+#java {
+    animation-name: animate2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate2 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+#ml {
+    animation-name: animate3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate3 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+#dl {
+    animation-name: animate4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate4 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+#web {
+    animation-name: animate5;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate5 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+#cp {
+    animation-name: animate6;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes animate6 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+#sk h1 {
+    color:black;
+    font-size: 40px;
+    padding: 70px;
+    text-align: center;
+    font-family: 'Amarante', cursive;
+
+
+
+
+}
+
+#sk {
+    height: 720px;
+    background:lightgrey no-repeat center center/cover;
+    
+   
+
+}
+
+h1 {
+    color:white;
+    font-family: 'Amarante', cursive;
+}
+
+.details {
+    border: 5px solid rgb(0, 217, 255);
+    border-radius: 15px;
+    padding: 10px;
+    width: 48%;
+    margin: auto;
+    height: 440px;
+    background-color: white;
+
+}
+
+.details-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.details-list li {
+    color:#ffd5d8;
+    text-align: left;
+    font-size: 20px;
+}
+#about{
+    height:680px;
+    padding:40px;
+}
+#about h1{
+    color:black;
+    text-align: center;
+    padding:30px;
+    font-size:40px;
+}
+.aboutpara p{
+    margin:60px;
+    color:black;
+    text-align: center;
+    font-family: 'Amarante', cursive;
+    font-size:20px;
+    font-weight: 200;
+
+
+}
+.aboutpara{
+    display: flex;
+
+}
+.hashtags{
+    
+    margin:40px;
+}
+
+.para h1{
+    color:black;
+}
+.para ul{
+    display:flex;
+    font-size: 20px;
+    flex-direction: column;
+    color: black;
+}
+
+.para ul li{
+    color:black;
+    font-weight: bold;
+}
+
+#interests{
+    height:750px;
+    background:black;
+}
+#interests h1{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-top:70px;
+
+}
+
+.cards{
+    display:flex;
+    padding:20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card{
+    width:40%;
+    
+    border-radius: 10px;
+    display: flex;
+    background: rgb(31, 28, 28);
+    margin:20px auto;
+    flex-direction: row;
+}
+
+.card p{
+    color:white;
+    font-size: 15px;
+    padding:20px;
+    font-weight: 100;
+    font-family: 'Amarante', cursive;
+}
+.card img{
+    padding:20px;
+    height:200px;
+    width:400px;
+    margin:auto;
+    border-radius: 15% 15%;
+}
+
+
+
+
+@media only screen and (max-width:1440px) {
+
+    .liel {
+      
+        padding: 34px;
+        transition: opacity 2.5s;
+      
+      
+    }
+
+    .icon {
+        display: block;
+        position: absolute;
+
+    }
+
+    .v-class {
+     
+        opacity: 0;
+        transition: opacity 2.5s;
+        overflow:hidden;
+        flex-direction: row;
+        padding:0px;
+        height: 0;
+        transition:height 0.5s;
+        
+       
+    }
+
+    .v-class listel{
+        height: 0px;
+    }
+
+    .next{
+        justify-content:start;
+    }
+  
+
+    .navbar {
+        height: 50px;
+      
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+  
+       
+    }
+
+    .menu {
+        width: 100%;
+        height:300px;
+        background:rgb(224, 207, 191);
+        transition: all 0.5s ease-out;
+    }
+   
+    .para{
+        padding-top: 50px;
+        margin: 10px auto;
+        padding:0px;
+        width: 95%;
+    }
+    .hashtags{
+        padding-top:50px;
+        margin:10px;
+
+    }
+
+    .h-class {
+        height: 50px;
+        
+        transition: all 0.5s ease-out;
+     
+    }
+
+    .big {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .skills {
+        height: 1400px;
+        flex-direction: column;
+        width:100%;
+        margin:0px 0px;
+
+    }
+    #about{
+        display: flex;
+        height: 590px;
+        flex-direction: column;
+    }
+    .aboutpara{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutpara p{
+        width: 95%;
+        margin: auto 0px;
+        font-size: 15px;
+    }
+
+
+    .next {
+
+        flex-direction: column;
+        height:1100px;
+    }
+    #home img{
+        width:171px;
+        height: 236px;
+        margin:auto
+
+    }
+    .progress{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        flex-wrap: wrap;
+        margin:auto;
+    }
+
+    #sk img{
+        width:150px;
+        height: 140px;
+    }
+    .progress p{
+        font-size: 15px;
+    }
+    #sk{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    #sk h1{
+        padding-top: 92px;
+        padding-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #about img{
+        height:200px;
+        width:200px;
+        margin:auto;
+    }
+
+  
+    .skillsbar{
+        margin:auto;
+        width:100%;
+    }
+    .heading{
+        width:100%;
+        margin:10px 0px;
+        height:700px;
+        padding: 10px 0px;
+    }
+    .heading img{
+        width:400px;
+        margin:auto;
+    }
+
+    .details{
+        margin:10px 0px;
+        border:5px solid rgb(0, 217, 255);
+        width:100%;
+        height:100vh;
+    }
+    .skillsbar li{
+        margin: 6px auto;
+        width:85%;
+    
+    }
+
+    .odd{
+        width:80%;
+    }
+
+    .even{
+        width:80%;
+    }
+
+
+    #interests{
+        height:720px;
+        flex-direction: column;
+    }
+
+    .cards{
+        width:100%;
+        padding: 0px;
+
+    }
+
+    .card{
+        flex-direction: column;
+    
+    }
+    .card{
+        padding:0px;
+        width:44%;
+        height:160px;
+    }
+    
+    #interests img{
+        width:100%;
+        height: 150px;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .card p{
+        font-size: 8px;
+        padding:5px;
+        font-weight: 100;
+    }
+
+
